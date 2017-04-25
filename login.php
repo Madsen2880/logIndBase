@@ -48,11 +48,13 @@ endif;
 
     <h1>Log Ind</h1>
     <span>eller <a href="opret.php">Opret ny bruger her.</a></span>
+
+    
     <form action="login.php" method="post">
         <input type="text" placeholder="Skriv dit brugernavn..." name="brugernavn">
         <input type="password" placeholder="Skriv din kode" name="password">
 
-        <input type="submit" value="Log Ind">
+        <input type="submit" value="Log Ind" name="btn">
     </form>
 
 </body>

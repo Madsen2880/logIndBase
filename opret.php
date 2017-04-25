@@ -57,7 +57,7 @@ if (!empty($_POST['brugernavn']) && !empty($_POST['password'])):
         <input type="password" placeholder="Skriv din kode" name="password">
         <input type="password" placeholder="Gentag kode" name="confirm_password">
 
-        <input type="submit" value="Opret bruger">
+        <input type="submit" value="Opret bruger" name="btn">
     </form>
 
 
